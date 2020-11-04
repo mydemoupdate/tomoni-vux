@@ -1,0 +1,85 @@
+// Scrollbar
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #bfbfbf;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #9d9d9d;
+}
+
+// Table
+.table.nowrap th,
+.table.nowrap td {
+    white-space: nowrap;
+}
+
+.splitpanes__pane > div {
+    height: 100%;
+    overflow: auto;
+}
+
+.table-responsive {
+    height: 100%;
+}
+
+// Nav
+.nav-tabs .nav-link {
+    height: 100%;
+    border-radius: 0;
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: 0;
+}
+
+// Subheader
+.c-subheader {
+    min-height: 45px;
+}
+
+// Menu
+.menu {
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.menu .nav {
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    min-width: 30%;
+    height: 100%;
+}
+
+.menu ::-webkit-scrollbar {
+    display: none;
+}
+
+.menu .btn:focus,
+.menu .btn.focus {
+    box-shadow: none;
+}
+
+// Form
+form.size-sm .form-group {
+    margin-bottom: 0
+}
+
+form.size-sm .form-group > label {
+    margin-bottom: 0
+}
+
+// More
+.line-left {
+    border-left: 1px solid #d8dbe0;
+}
+
+.tab-content .hidden-in-tab-content {
+    visibility: hidden;
+}
