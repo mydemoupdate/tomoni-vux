@@ -11,7 +11,7 @@
 
 ![Template](https://coreui.io/images/github/vue-free-template-3.gif)
 
-## Description
+## Descriptions
 
 Why we decided to create CoreUI? Please read this article: [Jack of all trades, master of none. Why Boostrap Admin Templates suck.](https://medium.com/@lukaszholeczek/jack-of-all-trades-master-of-none-5ea53ef8a1f#.7eqx1bcd8)
 
